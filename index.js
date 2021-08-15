@@ -35,10 +35,19 @@ var questionThree={
   answer:"Mango"
 }
 
-var questions=[questionOne,questionTwo,questionThree];
+var questionFour={
+  question:"My University name?",
+  answer:"Chandigarh University"
+}
+
+var questionFive={
+  question:"My favorite mentor?",
+  answer:"Tanay Partap"
+}
+
+var questions=[questionOne,questionTwo,questionThree,questionFour,questionFive];
 
 for(var i=0;i<questions.length;i++){
-  // var currentQuestion=questions[i];
   play(questions[i].question,questions[i].answer)
 }
 
